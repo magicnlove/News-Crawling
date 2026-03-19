@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>(AUTO BOT)디지털L&D센터 IT NEWS UPDATER</title>
+
+<style>
+
+body {
+font-family: Arial;
+background:#fff7f2;
+padding:20px;
+}
+
+.container {
+max-width:1000px;
+margin:auto;
+}
+
+h1 {
+color:#F37321;
+text-align:center;
+}
+
+.search {
+width:100%;
+padding:10px;
+margin-bottom:10px;
+}
+
+.filter button {
+margin:3px;
+padding:6px 10px;
+border:none;
+background:#eee;
+cursor:pointer;
+}
+
+.filter button:hover {
+background:#F37321;
+color:white;
+}
+
+.card {
+background:white;
+padding:15px;
+margin-bottom:10px;
+border-left:5px solid #F37321;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tag {
+display:inline-block;
+background:#F37321;
+color:white;
+font-size:11px;
+padding:3px 7px;
+border-radius:4px;
+margin-bottom:5px;
+}
+
+.importance {
+font-size:12px;
+color:#F37321;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>(AUTO BOT)디지털L&D센터 IT NEWS UPDATER</h1>
+
+<p>총 20개 뉴스</p>
+
+<p style="text-align: right;">`26.3. ver1.0<BR>made by Digital L&D Center 이승훈</p>
+
+<h2>뉴스 트렌드 분석</h2>
+
+<img src="news_trend_chart.png" width="400">
+
+<input id="searchBox" class="search" placeholder="뉴스 검색">
+
+<div class="filter">
+
+<button onclick="filterTag('all')">전체</button>
+<button onclick='filterTag("AI")'>AI</button><button onclick='filterTag("Digital")'>Digital</button><button onclick='filterTag("Fintech")'>Fintech</button></div>
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxONDRqT2RCUzBFSmlaTnZ4OXJJSTBCV2oxZXhLbnF4VXM5bTRGRWNWVzFoYTdHbXBsWkN3V01aTG81MVphS0c3SmNyVV83STJoVkp6NTNUR1N0UVk5bnJoR0dVVHRELUlsc1lHOXFmdEttVTcwZV9OVzdZZTFPWGkwN0ZR0gGWAUFVX3lxTE41WDRRWm45NWI4bWp5dzRYYkE5YUFFMjM4aDF6aVBXcm91dkZjbVhveDRJR0paeTBhZTY3OUJlQnNabFBLWEluMEZwaXdZVGlVUENUSGpTZjU1eHQyalh6Rl9mZGc3ckZpVGJtVXR0WEhQb3pfUWhkTjZqbGRhdndCZXVMN1BXWnJBQUlPX0RxdG9HU1B0QQ?oc=5" target="_blank">
+[비즈톡톡] 네이버, 이해진 이사회 복귀 후 자회사 14개 늘어나… 사업 확대 키워드는 중동·투자·핀테크·플랫폼 - 조선비즈 - Chosunbiz
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 9
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Tue, 17 Mar 2026 07:55:00 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="AI">
+
+<div class="tag">AI</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1UOWJaQlNCdG85cy11TS1mc3Z6WTlYS2FlVU1tYVh0a0EtNVRpNFhmd0tUX1ZkNV9IQ25zNkNMYXlpUHlIWUE?oc=5" target="_blank">
+삼정KPMG “글로벌 핀테크 투자 반등···AI·디지털 자산이 시장 견인” - v.daum.net
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 6
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Mon, 16 Mar 2026 12:45:00 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSelQ3VDVmWWc0ZU9EQ2xEcVlfcDF2NTRqYVhIUDZabjN2dENvUTMxQ3lxdzJJWmNHazJsaS1fYzlBVkplUVNBQnVONlhyUQ?oc=5" target="_blank">
+핀테크사와 협업 늘자…삼성카드, '페이먼트담당' 조직 격상 - 전자신문
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 5
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 01:27:29 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1qcGI3WVdxM2tYejlUcUdJUXdISWJuV29WVkw1X2dyeGFVemY3cmxMd1QzX29fMmExMmtHWHlQWVpYZmNPMDdlLXdCaGhlWFYwRnd5MzBTS3hfMWVXVE9qeHREZzJFYlhxUk0w?oc=5" target="_blank">
+카카오페이, 핀테크 '페이워치' 품고 기업 복지포인트 시장 정조준 - mt.co.kr
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 5
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 09:19:16 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VS050UzNiaVVEOE0yU2daSXYycldDUWczY2F3NmtvalNMeGhOQVYwc19qU0ItUmFBWk16bDhaNlZ3QkxLcmFRUk4zVDh2SkdBZlRJMkZvVEQ3dlpsbG04SmtLRExGVDdK0gFsQVVfeXFMUHB6Wm5WeEdwZnM4TlFld29yc3habGdEbTdUNGFodC1oLXFDYzJCbUZFSkppODE0b3lqMU5XT3Q1bmcxeFJkVDMta3lQb2hXSVlrZjZCOGJiNlpETFhSTTJxbTRnUTd6Wm96STF0?oc=5" target="_blank">
+[인뱅 스테이블코인戰]① 카카오뱅크 '그룹 연합' 결정타, 플랫폼 결제 - 블로터
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 5
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Tue, 17 Mar 2026 01:34:34 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRYlNKU1BQUzFYMko5RGdfNXBWS04tRk9hMXl5Z200ajdFWTc1MDhpWkNteFlYUW11TkFNRGFJV0QyTE9VeGRfeVJOamRIUFdfSElBR3JvYTFEQdIBVEFVX3lxTE5ZX3VnUnRQVVh2M2owTjJmZUhLa1ZidDh3cjB0aDVLaXNtY2FJZ1VZSmYxV0ZFMnBtY3BDcTAyaHFXVlE1OEwzQ2Vpc3NFS3kzTks4MA?oc=5" target="_blank">
+美 사모대출 위기 전방위 확산…핀테크 투자 사모대출도 환매 제한 - 한국경제
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 4
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 20:38:12 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="AI">
+
+<div class="tag">AI</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpRkhmV3Z1NFBpaEU3cVp0MzhOT3BFRzJKUlpfTFUxZmNRTTY5MjNwekQ5TDR6b0dJMmdFZW52X05iaVh5V3YxV3BqSi16ZkpicUHSAVNBVV95cUxNa2lBdFpEbnhxcU5OeTFYczlVMkpadC10NUJHX2toamswbE54dGVKM0lZTDFfcTd3ajVoajZ3M2d0SERfNVpLWXlQVnRhWkVsc21STQ?oc=5" target="_blank">
+모아라이프플러스 “주총서 AI·핀테크 등 디지털 신사업 추진” - 서울경제신문
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 4
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 01:25:22 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9BVFZCU2E5SG13dzY1c0M4YW9OR0REZTAxczlQa1Q3YTdNNi1INHludW1DN2d5WVdobnFHSHdmbTlzVi1pZk9CbFlUb1ZOdFNLcW8tUzhUdG9oczZkN2pKTWRWY3Y1WUhHY0REVUcwNEhrdGc?oc=5" target="_blank">
+퓨처 핀테크 그룹(FTFT), 2025년 연례 보고서 제출 - 데이터투자
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 4
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 21:24:55 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="AI">
+
+<div class="tag">AI</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5VX2lDNTMxYmlfcGNrVjdWVDl1OUpFX2dXMGJfcUFXUUtPVHh5T0VZNVJCSklTNzVqSlpkbFZRelo2QzA?oc=5" target="_blank">
+한국 핀테크, AI와 생태계 통합이 이끄는 미래 - 한국공공정책신문
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 4
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 17:27:35 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBDaWZ6bGhjOFUwNjFvUzY0UkV1VFFLVXBEemZQNi1mdk9mdlFMUkpIb0tvdy02MkhmaHpxTkcxNk41c2R2ZEpUaE04TXRFcFNaUVdGZFNRTm9tVlloOEFHTUM1NEliaWZlTG1MTzgwRQ?oc=5" target="_blank">
+글로벌 핀테크 투자 동향과 2026년 상반기 전망 - KPMG
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 4
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Fri, 13 Mar 2026 05:01:47 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MLVFISWJrcjBxX1FLWlRUVDNIN0d1bkk2cDVTY29TVTc5UnU2ZnplWmxYT21mMDVkSHF1ZGQ5eC1qcG9CbXNJRTh0YWVOV3FPVjRJ?oc=5" target="_blank">
+개인사업자 잡아라…은행 vs 핀테크 '대출 갈아타기' 전운 - 네이트
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Tue, 17 Mar 2026 22:31:00 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1zaW81VTlMOWV3allUN1EtMWp4b1FKXzAwUmtGNGtLYTNVTHk1d1Z0MGdQeDllSEdjcGI1YVpWTG1IQV96clJtSkNVTDVhN2wyRUE3MXlXZTAwdUstajFTbU92eFRlQ0hiTXc?oc=5" target="_blank">
+핀테크 '네·카·토', 개인사업자 갈아타기 서비스 출시 - SBS 뉴스
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 01:33:00 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZakx2VTY5N3ZDRXd2em5DNWxhU3dXY0lkN3BpWlExd2x2aFhpNUVfNTE4Z1Ywc2pqZVA0ZkVBREdxVFNGalYzdzA0cDhSSnk2VlNCNg?oc=5" target="_blank">
+“사장님 대출 더 싸게 갈아타세요”…인뱅·핀테크, ‘개인사업자 대환’ 시작 - 매일경제
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 07:48:01 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1yUnBGdVZhX2swTUNxRFMya0hlYmxEY2ktSEg3dFhWcDJCMlRkdGgxdVJzWXM1MEtBaDdMSGJWMXdSSk1nc3hiWUQ3V0ZnLURFU2lCUkRGZzRTX1hEZkNVX21yT2FFWXJodEVJRXFpRHlsZw?oc=5" target="_blank">
+“사장님 대출 갈아탄다”…은행·핀테크 동시 출격에 대환시장 격전 - 인더스트리뉴스
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 02:31:17 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBSUnYzckJpTnoxa190dW9nZFcydjdHSTZMQW9qSWw5TVlmWTMxX1pkcjd5ZDdESkR6dUNVTERDMmVjZktJdGQzY2lucXpBcmFHS3hkaWN2UDl3ZXhkaTJ2RlBZendyM00wV0pHYV9WWmh0Zw?oc=5" target="_blank">
+사장님 대출 갈아타기 열렸다…은행·핀테크 '고객 쟁탈전' 돌입 - 오피니언뉴스
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 05:55:33 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="AI">
+
+<div class="tag">AI</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE04ZVhWRnE2R09sQm52VXJNbWhEX1lzZl9yZ29VYzVxRmJZMzJyNWV2RDMyaEZycjF6ajdOY0taZXRUUmJxMVF1M1pfcDRIbWxNVTlzWEZNa2drWUhneWZCN0xfSXFZZHBw0gFsQVVfeXFMTnpPMnhFbnZlTEp0bG1ENFhaZGJEU3lES2pKWlo3U21nd0Q0NGs3U242aUVRbFJQYlVMRG9pcXVZTkRjOHNxVW1GajhHSmNzMDhVdHNDcEFTOENhSGQ3djg4blljNkZEbmY4T1N2?oc=5" target="_blank">
+챗봇 넘어 '일하는 AI'…우리은행 업무구조 바꾼 이유 - 블로터
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Thu, 05 Mar 2026 08:00:00 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Fintech">
+
+<div class="tag">Fintech</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXdGVKWHo0aEZLd0NMRTlKMjAyM1pQVDVUQlpuaVZlSWZVMXNGOEhXajA2M045Y2gydjJXbTg0V2RDZHRDNkc2MWkzSnlSS2NkMlRyV0FSTEMzbmxsRXllMHNuYVc?oc=5" target="_blank">
+"금융 문턱 낮춘다"…14억 인도서 교육 나선 K-핀테크 - MTN 머니투데이방송
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 2
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Tue, 17 Mar 2026 08:46:17 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Digital">
+
+<div class="tag">Digital</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1HUzhpNXFFeXhOeUxPV2wxTWx6T3d1YVM0RFR5WWt1c2RvZFVfSWhKLTJvbEV6NWJqdi1zMndfQ044SV8yU3kybEVyc2tSZWVnWTU3R2xOY2o5ZzU2enJDSEVQdndzb3V3eXRaWmxvS2J0RzhpRkttQmV1N3E?oc=5" target="_blank">
+은행, 개인사업자 신용대출 경쟁 본격화 - 글로벌에픽
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 0
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 23:49:17 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Digital">
+
+<div class="tag">Digital</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBMdjRHbTBPdS1RM3FySnRGZDV0T0hMR21zV2VmZmFBLWdRM0hXNzJSZi1VWjRVZ2pOUVgxNlNYUjBJR2xwQUdseW43ckxqeUFLWWI1WXo2M05VckJEMnM2cU5TQS1KU3NGeDZmWg?oc=5" target="_blank">
+‘사장님 대출 갈아타기’도 스마트폰으로 …1조원 이동 예상 - 이코노미톡뉴스
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 0
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 22:15:06 GMT</p>
+
+</div>
+
+
+
+<div class="card" data-tag="Digital">
+
+<div class="tag">Digital</div>
+
+<h3>
+<a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5hd2h2d0I2YzBSZ1JwdGd1bjlDRGh5ZndOeEljSVBBMHVkUldQZ0todVMxaElZSHVYU0l6c3RRMEZGN1hnQm9FQ2FGcEFZdkdxenZwbDdhVnQtR3RPYi1GZ1ktcXh2dFc5b3NlNw?oc=5" target="_blank">
+한은, '프로젝트 한강' 예금토큰 상용화 2단계 착수 - 스페셜경제
+</a>
+</h3>
+
+<div class="importance">
+중요도 ⭐ 0
+</div>
+
+<p>(본문이 너무 짧아 요약 불가)</p>
+
+<p>Google | Wed, 18 Mar 2026 06:45:00 GMT</p>
+
+</div>
+
+
+
+</div>
+
+<script>
+
+const searchBox=document.getElementById("searchBox")
+
+searchBox.addEventListener("keyup",function(){
+
+let keyword=this.value.toLowerCase()
+
+let cards=document.querySelectorAll(".card")
+
+cards.forEach(card=>{
+
+let text=card.innerText.toLowerCase()
+
+card.style.display=text.includes(keyword)?"block":"none"
+
+})
+
+})
+
+function filterTag(tag){
+
+let cards=document.querySelectorAll(".card")
+
+cards.forEach(card=>{
+
+if(tag=="all"){
+card.style.display="block"
+}
+
+else if(card.dataset.tag==tag){
+card.style.display="block"
+}
+
+else{
+card.style.display="none"
+}
+
+})
+
+}
+
+</script>
+
+</body>
+</html>
+
